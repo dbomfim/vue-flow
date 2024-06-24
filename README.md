@@ -92,7 +92,7 @@ const edges = ref([
 </script>
 
 <template>
-  <VueFlow v-model:nodes="nodes" v-model:edges="edges"></VueFlow>
+  <VueFlow :nodes="nodes" :edges="edges" />
 </template>
 ```
 
